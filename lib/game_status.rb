@@ -68,9 +68,9 @@ puts full?(board)
 
 
 if draw?(board) == false && won?(board) == false && full?(board) == false
-  return false
+  #return false
 elsif full?(board) == true && won?(board) != false
-  #return true
+  return true
 elsif full?(board) == false && won?(board) != false
 #return false
 elsif draw?(board) == true
