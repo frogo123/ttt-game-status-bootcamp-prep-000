@@ -62,10 +62,6 @@ end
 end
 
 def over?(board)
-puts  draw?(board)
-puts won?(board)
-puts full?(board)
-
 
 if  won?(board) != false && full?(board) == false && draw?(board) == false
   if won?(board).length == 3
