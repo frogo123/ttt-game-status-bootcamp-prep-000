@@ -68,7 +68,7 @@ puts full?(board)
 
 
 if  won?(board) != false && full?(board) == false && draw?(board) == false
-  if won?(board) == Array.length == 1
+  if won?(board).length == 1
   return true
 else
   return false
