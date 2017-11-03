@@ -78,5 +78,14 @@ elsif full?(board) == true && won?(board) != false
 elsif draw?(board) == true
   return true
 end
+end
 
+def winner(board)
+  if won?(board).length == 3
+  arr = won?(board)
+  sym = board[arr[0]]
+return sym
+else
+  return false
+end
 end
