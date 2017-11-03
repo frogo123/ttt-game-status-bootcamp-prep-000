@@ -74,7 +74,7 @@ elsif full?(board) == true && won?(board) != false
 elsif full?(board) == false && won?(board) != false
 #return false
 elsif draw?(board) == true
-  #return true
+  return true
 end
 
 end
