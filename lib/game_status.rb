@@ -77,7 +77,7 @@ end
 end
 
 def winner(board)
-  if won?(board).length == 3
+  if won?(board) != false
   arr = won?(board)
   sym = board[arr[0]]
 return sym
