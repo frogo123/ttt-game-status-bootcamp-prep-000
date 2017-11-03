@@ -64,6 +64,7 @@ end
 def over?(board)
 puts  draw?(board)
 puts won?(board)
+puts won?(board).length
 puts full?(board)
 
 
