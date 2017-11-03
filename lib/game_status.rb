@@ -72,7 +72,7 @@ if draw?(board) == false && won?(board) == false && full?(board) == false
 elsif full?(board) == true && won?(board) != false
   return true
 elsif full?(board) == false && won?(board) != false
-  return true
+  #return true
 elsif draw?(board) == true
   return true
 end
