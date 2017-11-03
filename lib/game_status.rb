@@ -82,6 +82,6 @@ def winner(board)
   sym = board[arr[0]]
 return sym
 else
-  return false
+  return nil
 end
 end
