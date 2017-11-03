@@ -67,12 +67,11 @@ puts won?(board)
 puts full?(board)
 
 
-if draw?(board) == false && won?(board) == false && full?(board) == false
-  #return false
+if  won?(board) != false && full?(board) == false
+  return true
 elsif full?(board) == true && won?(board) != false
   return true
-elsif full?(board) == false && won?(board) != false
-#return false
+
 elsif draw?(board) == true
   return true
 end
